@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Moved files from server/server to /server">
+      <change afterPath="$PROJECT_DIR$/client/src/utils/requestPromise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/server" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/client/node_modules/prettier" />
@@ -49,10 +57,12 @@
       <recent name="$PROJECT_DIR$/server/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/utils" />
+      <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.quave-eslint">
+  <component name="RunManager" selected="npm.start">
     <configuration name="quave-check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -111,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621095390892</updated>
       <workItem from="1621095392367" duration="533000" />
-      <workItem from="1621095937687" duration="1005000" />
+      <workItem from="1621095937687" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -120,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621096875190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RPG Commit&#10; - Clean gitignore and readme file">
+      <created>1621096976432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621096976432</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" - Moved files from server/server to /server">
+      <created>1621097054195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621097054195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +163,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests" />
+    <MESSAGE value="RPG Commit&#10; - Clean gitignore and readme file" />
+    <MESSAGE value=" - Moved files from server/server to /server" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Moved files from server/server to /server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
