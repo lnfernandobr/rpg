@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Moved files from server/server to /server">
-      <change afterPath="$PROJECT_DIR$/client/src/utils/requestPromise.js" afterDir="false" />
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Create util to make request&#10; - Added component to search">
+      <change afterPath="$PROJECT_DIR$/client/src/MoreInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/requestPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/requestPromise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621095390892</updated>
       <workItem from="1621095392367" duration="533000" />
-      <workItem from="1621095937687" duration="3046000" />
+      <workItem from="1621095937687" duration="7668000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621097054195</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" - Create util to make request&#10; - Added component to search">
+      <created>1621099028498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621099028498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +175,8 @@
     <MESSAGE value="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests" />
     <MESSAGE value="RPG Commit&#10; - Clean gitignore and readme file" />
     <MESSAGE value=" - Moved files from server/server to /server" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Moved files from server/server to /server" />
+    <MESSAGE value=" - Create util to make request&#10; - Added component to search" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Create util to make request&#10; - Added component to search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

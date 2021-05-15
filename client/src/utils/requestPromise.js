@@ -7,7 +7,6 @@ export const requestPromise = async ({ url, method = "get" }) => {
         reject(err);
       }
       // TODO implements log of errors
-
       resolve(data);
     });
   });

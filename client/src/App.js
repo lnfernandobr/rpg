@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { requestPromise } from "./utils/requestPromise";
+import { useHistory } from "react-router-dom";
 
 // TODO think about this
 export const LOCALES = {
@@ -21,6 +22,9 @@ const LANGUAGES = {
 
 export const App = ({ locale }) => {
   const [search, setSearch] = useState("");
+  const [list, setList] = useState([]);
+
+  const history = useHistory();
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -32,12 +36,9 @@ export const App = ({ locale }) => {
     // TODO prettier without `()` when have one only param
     requestPromise({ url, method }).then((data) => {
       const body = JSON.parse(data.body);
-      console.log("body: ", body);
-      alert("Success request");
+      setList(body.results);
     });
-    // TODO call action to search something
     // TODO create rule to block commit with logs
-    console.log("search: ", search);
   };
 
   return (
@@ -52,6 +53,28 @@ export const App = ({ locale }) => {
 
         <button type="submit">{LANGUAGES[locale].label}</button>
       </form>
+
+      {!!list.length && (
+        <div>
+          <ul>
+            {list.map(({ name, index }) => (
+              <label key={index} style={{ display: "flex" }}>
+                <li style={{ marginRight: 8 }}>{name}</li>{" "}
+                <button
+                  onClick={() =>
+                    history.push({
+                      pathname: `/more-info`,
+                      state: { path: "/api/spells/alarm" },
+                    })
+                  }
+                >
+                  Ver mais
+                </button>
+              </label>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 };
