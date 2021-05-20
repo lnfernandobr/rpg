@@ -19,6 +19,8 @@ export const MoreInfo = () => {
     return <p>Not found</p>;
   }
 
+  return  <div>oi</div>
+
   // TODO we need improve this component
   return (
     <div>
