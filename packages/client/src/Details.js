@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { requestPromise } from "./utils/requestPromise";
 
-export const MoreInfo = () => {
+export const Details = () => {
   const [info, setInfo] = useState();
   const { state: { path } = {} } = useLocation();
   console.log("path: ", path);
@@ -13,13 +13,12 @@ export const MoreInfo = () => {
     requestPromise({ url, method: "get" }).then((r) =>
       setInfo(JSON.parse(r.body))
     );
+    // eslint-disable-next-line  react-hooks/exhaustive-deps
   }, []);
 
   if (!info) {
     return <p>Not found</p>;
   }
-
-  return  <div>oi</div>
 
   // TODO we need improve this component
   return (

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { requestPromise } from "./utils/requestPromise";
+import React from "react";
 import { useHistory } from "react-router-dom";
 
 // TODO think about this

@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { MoreInfo } from "../MoreInfo";
+import { Details } from "../Details";
 import { App } from "../App";
 import { Spells } from "../Spells/Spells";
 import { RoutePaths } from "./RoutePaths";
@@ -15,7 +15,7 @@ export const Routes = () => {
       />
       <Route
         path={`/${RoutePaths.DETAILS}`}
-        component={(props) => <MoreInfo {...props} />}
+        component={(props) => <Details {...props} />}
       />
       <Route
         path={`/${RoutePaths.SPELLS}`}
