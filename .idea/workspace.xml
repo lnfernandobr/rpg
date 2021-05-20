@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Updating remade file of clint side">
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Removed all eslint warnings">
+      <change afterPath="$PROJECT_DIR$/packages/server/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/MoreInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/Details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +138,7 @@
       <workItem from="1621095937687" duration="12118000" />
       <workItem from="1621267111690" duration="612000" />
       <workItem from="1621548998812" duration="1518000" />
-      <workItem from="1621550911681" duration="3694000" />
+      <workItem from="1621550911681" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -207,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621554455045</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" - Removed all eslint warnings">
+      <created>1621554623526</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621554623526</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +238,8 @@
     <MESSAGE value=" - Migrate to monorepo with package's folder containing client and server and eslint config." />
     <MESSAGE value=" - Remove folder of test" />
     <MESSAGE value=" - Updating remade file of clint side" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Updating remade file of clint side" />
+    <MESSAGE value=" - Removed all eslint warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Removed all eslint warnings" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
