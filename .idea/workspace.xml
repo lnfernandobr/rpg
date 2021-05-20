@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added routePaths&#10; - Created an component to each endpoint (monsters, spells, features and classes)">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/eslint-config/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Monsters/Monsters.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/Monsters/Monsters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/MoreInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/MoreInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/Search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Spells/Spells.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/Spells/Spells.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/RoutePaths.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/requestPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/utils/requestPromise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" />
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Remove folder of test">
+      <change beforePath="$PROJECT_DIR$/packages/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +137,7 @@
       <workItem from="1621095937687" duration="12118000" />
       <workItem from="1621267111690" duration="612000" />
       <workItem from="1621548998812" duration="1518000" />
-      <workItem from="1621550911681" duration="3341000" />
+      <workItem from="1621550911681" duration="3527000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -210,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621550397478</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" - Migrate to monorepo with package's folder containing client and server and eslint config.">
+      <created>1621554351404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621554351404</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" - Remove folder of test">
+      <created>1621554413489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621554413489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +220,9 @@
     <MESSAGE value=" - Create util to make request&#10; - Added component to search" />
     <MESSAGE value=" - Added react-router-dom&#10; - Added component with more info of spell&#10; - Added routes" />
     <MESSAGE value=" - Added routePaths&#10; - Created an component to each endpoint (monsters, spells, features and classes)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Added routePaths&#10; - Created an component to each endpoint (monsters, spells, features and classes)" />
+    <MESSAGE value=" - Migrate to monorepo with package's folder containing client and server and eslint config." />
+    <MESSAGE value=" - Remove folder of test" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Remove folder of test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
