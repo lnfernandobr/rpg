@@ -7,7 +7,7 @@ import { Routes } from "./routes/Routes";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App locale={LOCALES.PT_BR} />
+      <App />
       <Routes />
     </BrowserRouter>
   </React.StrictMode>,

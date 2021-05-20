@@ -5,6 +5,7 @@ import { requestPromise } from "./utils/requestPromise";
 export const MoreInfo = () => {
   const [info, setInfo] = useState();
   const { state: { path } = {} } = useLocation();
+  console.log("path: ", path);
 
   useEffect(() => {
     const url = `https://www.dnd5eapi.co${path}`;

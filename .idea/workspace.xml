@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Create util to make request&#10; - Added component to search">
-      <change afterPath="$PROJECT_DIR$/client/src/MoreInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/routes/Routes.js" afterDir="false" />
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added react-router-dom&#10; - Added component with more info of spell&#10; - Added routes">
+      <change afterPath="$PROJECT_DIR$/client/src/Monsters/Monsters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Search/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Spells/Spells.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/RoutePaths.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/MoreInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/MoreInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/requestPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/requestPromise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/Routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/Monsters" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,10 +54,12 @@
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/client/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/Monsters" />
       <recent name="$PROJECT_DIR$/server/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -108,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.quave-eslint" />
         <item itemvalue="npm.quave-check" />
         <item itemvalue="npm.quave-prettier" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +127,9 @@
       <option name="presentableId" value="Default" />
       <updated>1621095390892</updated>
       <workItem from="1621095392367" duration="533000" />
-      <workItem from="1621095937687" duration="7668000" />
+      <workItem from="1621095937687" duration="12118000" />
+      <workItem from="1621267111690" duration="612000" />
+      <workItem from="1621548998812" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -154,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621099028498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" - Added react-router-dom&#10; - Added component with more info of spell&#10; - Added routes">
+      <created>1621104881219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621104881219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,13 +182,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests" />
     <MESSAGE value="RPG Commit&#10; - Clean gitignore and readme file" />
     <MESSAGE value=" - Moved files from server/server to /server" />
     <MESSAGE value=" - Create util to make request&#10; - Added component to search" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Create util to make request&#10; - Added component to search" />
+    <MESSAGE value=" - Added react-router-dom&#10; - Added component with more info of spell&#10; - Added routes" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Added react-router-dom&#10; - Added component with more info of spell&#10; - Added routes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
