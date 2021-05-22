@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Removed all eslint warnings">
-      <change afterPath="$PROJECT_DIR$/packages/client/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/src/AppContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/src/app/AppHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/private/dev/.env" afterDir="false" />
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/Search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/client" />
       <recent name="$PROJECT_DIR$/packages/server" />
       <recent name="$PROJECT_DIR$/client/src/Monsters" />
@@ -152,7 +141,7 @@
       <workItem from="1621548998812" duration="1518000" />
       <workItem from="1621550911681" duration="3921000" />
       <workItem from="1621598784351" duration="120000" />
-      <workItem from="1621717164575" duration="2294000" />
+      <workItem from="1621717164575" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -224,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621554623526</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file">
+      <created>1621719520432</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621719520432</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +249,8 @@
     <MESSAGE value=" - Remove folder of test" />
     <MESSAGE value=" - Updating remade file of clint side" />
     <MESSAGE value=" - Removed all eslint warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Removed all eslint warnings" />
+    <MESSAGE value=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
