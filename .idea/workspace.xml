@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Removed all eslint warnings">
-      <change afterPath="$PROJECT_DIR$/packages/server/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/AppContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/app/AppHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private/dev/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/client/node_modules/prettier" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -58,11 +70,11 @@
       <recent name="$PROJECT_DIR$/server/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/client/src/app" />
       <recent name="$PROJECT_DIR$/package" />
       <recent name="$PROJECT_DIR$/private" />
       <recent name="$PROJECT_DIR$/client/src/utils" />
       <recent name="$PROJECT_DIR$/client/src" />
-      <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
   <component name="RunManager" selected="npm.client">
@@ -139,6 +151,8 @@
       <workItem from="1621267111690" duration="612000" />
       <workItem from="1621548998812" duration="1518000" />
       <workItem from="1621550911681" duration="3921000" />
+      <workItem from="1621598784351" duration="120000" />
+      <workItem from="1621717164575" duration="2294000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>

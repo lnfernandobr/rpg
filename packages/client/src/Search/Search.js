@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { LANGUAGES } from "../App";
+import React, { useState } from 'react';
+import { LANGUAGES } from '../app/App';
 
 export const Search = ({ locale, onSubmit, component: Component }) => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
 
   return (
     <div className="App">
       <form
-        onSubmit={(e) => {
+        onSubmit={e => {
           e.preventDefault();
           onSubmit(search);
         }}
