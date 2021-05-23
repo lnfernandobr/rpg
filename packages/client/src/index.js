@@ -6,12 +6,12 @@ import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import { createMuiTheme } from '@material-ui/core/styles';
 
 /// TODO create folder to contain all styles files
-const COLORS = {
-  primary: '#000',
-  secondary: '#fdab13',
+export const COLORS = {
+  primary: '#0D1117',
+  secondary: '#0D1117',
   text: {
-    primary: '#333',
-    secondary: '#333333',
+    primary: 'rgba(255,255,255,0.8)',
+    secondary: 'rgba(255,255,255,0.4)',
   },
 };
 
@@ -22,6 +22,35 @@ const theme = createMuiTheme({
     text: {
       primary: COLORS.text.primary,
       secondary: COLORS.text.secondary,
+    },
+  },
+  overrides: {
+    MuiTypography: {
+      color: COLORS.text.primary,
+    },
+    MuiTextField: {
+      root: {
+        '& label.Mui-focused': {
+          color: COLORS.text.secondary,
+        },
+        '& .MuiInput-underline:after': {
+          borderBottomColor: COLORS.text.secondary,
+        },
+        '& .MuiOutlinedInput-root': {
+          '& fieldset': {
+            borderColor: COLORS.text.secondary,
+          },
+          '&:hover fieldset': {
+            borderColor: COLORS.text.secondary,
+          },
+          '&.Mui-focused fieldset': {
+            borderColor: COLORS.text.secondary,
+          },
+        },
+        '& .MuiFilledInput-root': {
+          background: '#000',
+        },
+      },
     },
   },
 });

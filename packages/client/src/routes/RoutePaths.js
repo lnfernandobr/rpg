@@ -1,5 +1,5 @@
 export const RoutePaths = {
-  ROOT: 'monsters',
+  ROOT: '/',
   MONSTERS: 'monsters',
   SPELLS: 'spells',
   DETAILS: 'details',

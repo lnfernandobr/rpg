@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import makeStyles from '@material-ui/styles/makeStyles/makeStyles';
 import AppBar from '@material-ui/core/AppBar';
+import Menu from '@material-ui/core/Menu';
+import Drawer from '@material-ui/core/Drawer';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MenuItem from '@material-ui/core/MenuItem';
-import Menu from '@material-ui/core/Menu';
-import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import { RoutePaths } from '../routes/RoutePaths';
 import { useHistory } from 'react-router-dom';
 import BugReportIcon from '@material-ui/icons/BugReport';
@@ -107,12 +107,7 @@ export const AppHeader = () => {
         </Toolbar>
       </AppBar>
 
-      <Drawer
-        style={{ width: '20%' }}
-        anchor="left"
-        open={isOpenDrawer}
-        onClose={toggleDrawer}
-      >
+      <Drawer anchor="left" open={isOpenDrawer} onClose={toggleDrawer}>
         <div onClick={toggleDrawer} onKeyDown={toggleDrawer}>
           <List>
             <ListItem

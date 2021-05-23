@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added README.md of project">
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/bottle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/hat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/magic-ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/magic-wand (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/magic-wand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/magic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/skull.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/witch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/components/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/infra/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/private/dev/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/spells/Spells.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/AppContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/Details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/Monsters/Monsters.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/monsters/Monsters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/Search/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/Spells/Spells.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/app/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/app/AppHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/dev/.env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/private/dev/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/client/public/icons/spells" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,18 +77,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/client/public/icons/spells" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/packages/client" />
       <recent name="$PROJECT_DIR$/packages/server" />
       <recent name="$PROJECT_DIR$/client/src/Monsters" />
-      <recent name="$PROJECT_DIR$/server/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/client/src" />
+      <recent name="$PROJECT_DIR$/packages/client" />
+      <recent name="$PROJECT_DIR$/packages/infra" />
       <recent name="$PROJECT_DIR$/packages/client/src/app" />
       <recent name="$PROJECT_DIR$/package" />
-      <recent name="$PROJECT_DIR$/private" />
-      <recent name="$PROJECT_DIR$/client/src/utils" />
-      <recent name="$PROJECT_DIR$/client/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.client">
@@ -141,7 +166,8 @@
       <workItem from="1621548998812" duration="1518000" />
       <workItem from="1621550911681" duration="3921000" />
       <workItem from="1621598784351" duration="120000" />
-      <workItem from="1621717164575" duration="2929000" />
+      <workItem from="1621717164575" duration="3722000" />
+      <workItem from="1621775348440" duration="7992000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -220,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621719520432</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" - Added README.md of project">
+      <created>1621720165992</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621720165992</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +283,8 @@
     <MESSAGE value=" - Updating remade file of clint side" />
     <MESSAGE value=" - Removed all eslint warnings" />
     <MESSAGE value=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file" />
+    <MESSAGE value=" - Added README.md of project" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Added README.md of project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
