@@ -15,5 +15,7 @@ Used Stack so far:
 
 ![image](https://user-images.githubusercontent.com/29682136/119269352-437aba00-bbc5-11eb-8484-e53a922e9b41.png)
 
+![image](https://user-images.githubusercontent.com/29682136/119271980-ec2f1680-bbd1-11eb-9a94-a8e9706131c6.png)
+
 
 #### TO DO: Improve this document. 
