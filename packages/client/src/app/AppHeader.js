@@ -15,14 +15,10 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import { RoutePaths } from '../routes/RoutePaths';
 import { useHistory } from 'react-router-dom';
-import BugReportIcon from '@material-ui/icons/BugReport';
-import FeaturedPlayListIcon from '@material-ui/icons/FeaturedPlayList';
-import AllInclusiveIcon from '@material-ui/icons/AllInclusive';
+import { COLORS } from '../index';
+import { Wrapper } from '../components/Wrapper';
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -31,6 +27,12 @@ const useStyles = makeStyles(theme => ({
   },
   drawer: {
     width: '20%',
+  },
+  drawerPaper: {
+    width: '60%',
+  },
+  listItem: {
+    marginTop: theme.spacing(2),
   },
 }));
 
@@ -56,7 +58,7 @@ export const AppHeader = () => {
   };
 
   return (
-    <div className={classes.root}>
+    <div>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -107,42 +109,74 @@ export const AppHeader = () => {
         </Toolbar>
       </AppBar>
 
-      <Drawer anchor="left" open={isOpenDrawer} onClose={toggleDrawer}>
-        <div onClick={toggleDrawer} onKeyDown={toggleDrawer}>
+      <Drawer
+        anchor="left"
+        open={isOpenDrawer}
+        classes={{
+          paper: classes.drawerPaper,
+        }}
+        onClose={toggleDrawer}
+      >
+        <div
+          onClick={toggleDrawer}
+          onKeyDown={toggleDrawer}
+          style={{ backgroundColor: COLORS.primary, flex: 1 }}
+        >
           <List>
             <ListItem
               button
               key={0}
+              className={classes.listItem}
               onClick={() => history.push(`/${RoutePaths.MONSTERS}`)}
             >
-              {/*TODO change icon of MONSTERS*/}
               <ListItemIcon>
-                <BugReportIcon />
+                <Wrapper
+                  img="icons/spells/monster.svg"
+                  width={24}
+                  height={24}
+                />
               </ListItemIcon>
 
               <ListItemText primary="Monsters" />
             </ListItem>
 
-            {/*TODO change icon of FEATURES*/}
-            <ListItem button key={1}>
-              <ListItemIcon
-                onClick={() => history.push(`/${RoutePaths.FEATURES}`)}
-              >
-                <FeaturedPlayListIcon />
+            <ListItem
+              button
+              key={1}
+              className={classes.listItem}
+              onClick={() => history.push(`/${RoutePaths.FEATURES}`)}
+            >
+              <ListItemIcon>
+                <Wrapper img="icons/spells/new.svg" width={24} height={24} />
               </ListItemIcon>
 
               <ListItemText primary="Features" />
             </ListItem>
 
-            {/*TODO change icon of SPELLS*/}
-            <ListItem button key={2}>
-              <ListItemIcon
-                onClick={() => history.push(`/${RoutePaths.SPELLS}`)}
-              >
-                <AllInclusiveIcon />
+            <ListItem
+              button
+              key={2}
+              className={classes.listItem}
+              onClick={() => history.push(`/${RoutePaths.SPELLS}`)}
+            >
+              <ListItemIcon>
+                <Wrapper img="icons/spells/book.svg" width={24} height={24} />
               </ListItemIcon>
 
               <ListItemText primary="Spells" />
+            </ListItem>
+
+            <ListItem
+              button
+              key={3}
+              className={classes.listItem}
+              onClick={() => history.push(`/${RoutePaths.CLASSES}`)}
+            >
+              <ListItemIcon>
+                <Wrapper img="icons/spells/assasin.svg" width={24} height={24} />
+              </ListItemIcon>
+
+              <ListItemText primary="Classes" />
             </ListItem>
           </List>
         </div>
