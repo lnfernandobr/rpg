@@ -11,4 +11,9 @@ Used Stack so far:
  - [X] Express
  - [X] Material UI
 
+## Preview
+
+![image](https://user-images.githubusercontent.com/29682136/119269352-437aba00-bbc5-11eb-8484-e53a922e9b41.png)
+
+
 #### TO DO: Improve this document. 
