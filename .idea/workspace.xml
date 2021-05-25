@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added search of spells &#10; - Added primary and secondary color&#10; - Added settings (temporary)&#10; - Added random icons">
-      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/assasin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/book.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/monster.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/public/icons/spells/new.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/src/classes/Classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/client/src/features/Features.js" afterDir="false" />
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added menu classes and components features, classes">
+      <change afterPath="$PROJECT_DIR$/packages/client/src/components/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/client/src/components/SkeletonList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/AppContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/app/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/app/AppHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/monsters/Monsters.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/monsters/Monsters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/RoutePaths.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/routes/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/src/spells/Spells.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/spells/Spells.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +147,9 @@
       <workItem from="1621550911681" duration="3921000" />
       <workItem from="1621598784351" duration="120000" />
       <workItem from="1621717164575" duration="3722000" />
-      <workItem from="1621775348440" duration="12751000" />
+      <workItem from="1621775348440" duration="14115000" />
+      <workItem from="1621865838219" duration="515000" />
+      <workItem from="1621980980125" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -248,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621788419782</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" - Added menu classes and components features, classes">
+      <created>1621793816730</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621793816730</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +281,8 @@
     <MESSAGE value=" - Added AppHeader.js&#10; - Added monorepo config&#10; - Added material&#10; - Added theme to materialUI&#10; - Added AppContainer.js&#10; - Added .env file" />
     <MESSAGE value=" - Added README.md of project" />
     <MESSAGE value=" - Added search of spells &#10; - Added primary and secondary color&#10; - Added settings (temporary)&#10; - Added random icons" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Added search of spells &#10; - Added primary and secondary color&#10; - Added settings (temporary)&#10; - Added random icons" />
+    <MESSAGE value=" - Added menu classes and components features, classes" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Added menu classes and components features, classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
