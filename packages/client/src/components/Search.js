@@ -20,9 +20,9 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export const Search = ({ onSubmit, showLine = true }) => {
+export const Search = ({ onSubmit, label, showLine = true }) => {
   const classes = useStyles();
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState('');
 
   const onChange = ({ target: { value } }) => setSearch(value);
 
@@ -39,7 +39,7 @@ export const Search = ({ onSubmit, showLine = true }) => {
           variant="outlined"
           value={search}
           onChange={onChange}
-          label="Search spells"
+          label={label}
         />
 
         <IconButton type="submit">
