@@ -13,9 +13,11 @@ Used Stack so far:
 
 ## Preview
 
-![image](https://user-images.githubusercontent.com/29682136/119269352-437aba00-bbc5-11eb-8484-e53a922e9b41.png)
+![localhost_3000_spells_(iPhone 6_7_8) (2)](https://user-images.githubusercontent.com/29682136/119577923-8dac9880-bd89-11eb-9c02-df4c73ed2cf6.png)
 
-![image](https://user-images.githubusercontent.com/29682136/119271980-ec2f1680-bbd1-11eb-9a94-a8e9706131c6.png)
+![localhost_3000_spells_(iPhone 6_7_8) (1)](https://user-images.githubusercontent.com/29682136/119577925-8e452f00-bd89-11eb-8d5d-7667f5b50a76.png)
+
+![localhost_3000_spells_(iPhone 6_7_8)](https://user-images.githubusercontent.com/29682136/119577932-8f765c00-bd89-11eb-9d6b-b557e2fcf8ce.png)
 
 
 #### TO DO: Improve this document. 
