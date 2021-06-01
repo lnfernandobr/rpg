@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Added dnd api that controls the requests.&#10; - Added utils file&#10; - Created component's feature that use Search and SkeletonList components">
+    <list default="true" id="5d09eadc-8e08-4a86-905f-636feeaae27b" name="Default Changelist" comment=" - Created component's classes that use Search and SkeletonList components&#10; - Created component's monsters that use Search and SkeletonList components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/client/src/classes/Classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/classes/Classes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/client/src/features/Features.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/features/Features.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/client/src/monsters/Monsters.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/monsters/Monsters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/spells/Spells.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/spells/Spells.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/utils/DnDAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/utils/DnDAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/src/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/client/src/utils/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,7 @@
       <workItem from="1621775348440" duration="14115000" />
       <workItem from="1621865838219" duration="515000" />
       <workItem from="1621980980125" duration="3659000" />
-      <workItem from="1622589219721" duration="554000" />
+      <workItem from="1622589219721" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="RPG Commit&#10; - Removed many files that was not necessary.&#10; - Added prettier package &#10; - Removed tests">
       <created>1621096875190</created>
@@ -267,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621984588933</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=" - Created component's classes that use Search and SkeletonList components&#10; - Created component's monsters that use Search and SkeletonList components">
+      <created>1622589810122</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622589810122</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +306,8 @@
     <MESSAGE value=" - Added menu classes and components features, classes" />
     <MESSAGE value=" - Extracted list of Spells.js and created component SkeletonList.js with skeleton" />
     <MESSAGE value=" - Added dnd api that controls the requests.&#10; - Added utils file&#10; - Created component's feature that use Search and SkeletonList components" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - Added dnd api that controls the requests.&#10; - Added utils file&#10; - Created component's feature that use Search and SkeletonList components" />
+    <MESSAGE value=" - Created component's classes that use Search and SkeletonList components&#10; - Created component's monsters that use Search and SkeletonList components" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - Created component's classes that use Search and SkeletonList components&#10; - Created component's monsters that use Search and SkeletonList components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
