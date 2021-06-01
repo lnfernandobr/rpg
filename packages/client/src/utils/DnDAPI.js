@@ -18,11 +18,11 @@ export const DnD_API = {
     requestToDnD({ path: `/spells/?name=${value}` }),
 
   getClasses: async ({ value }) =>
-    requestToDnD({ path: `/spells/?name=${value}` }),
+    requestToDnD({ path: `/classes/?name=${value}` }),
 
   getFeatures: async ({ value }) =>
     requestToDnD({ path: `/features/?name=${value}` }),
 
   getMonsters: async ({ value }) =>
-    requestToDnD({ path: `/spells/?name=${value}` }),
+    requestToDnD({ path: `/monsters/?name=${value}` }),
 };

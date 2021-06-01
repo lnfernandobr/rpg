@@ -3,7 +3,7 @@ import makeStyles from '@material-ui/core/styles/makeStyles';
 import { DnD_API } from '../utils/DnDAPI';
 import { Search } from '../components/Search';
 import { SkeletonList } from '../components/SkeletonList';
-import { mappedDnDResults } from '../utils/utils';
+import { mappingDnDResults } from '../utils/utils';
 
 const useStyles = makeStyles(theme => ({
   features: {
@@ -21,7 +21,7 @@ export const Features = () => {
 
     DnD_API.getFeatures({ value })
       .then(({ results }) => {
-        const mappedFeatures = mappedDnDResults(results);
+        const mappedFeatures = mappingDnDResults(results);
         setFeatures(mappedFeatures);
       })
       .finally(() => setShowSkeleton(false));

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Search } from '../components/Search';
 import { SkeletonList } from '../components/SkeletonList';
 import { DnD_API } from '../utils/DnDAPI';
-import { mappedDnDResults } from '../utils/utils';
+import { mappingDnDResults } from '../utils/utils';
 
 export const Spells = () => {
   const [spells, setSpells] = useState([]);
@@ -13,7 +13,7 @@ export const Spells = () => {
 
     DnD_API.getSpells({ value })
       .then(({ results }) => {
-        const mappedSpells = mappedDnDResults(results);
+        const mappedSpells = mappingDnDResults(results);
         setSpells(mappedSpells);
       })
       .finally(() => setShowSkeleton(false));
